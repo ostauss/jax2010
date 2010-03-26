@@ -75,7 +75,7 @@ public class Money implements Comparable<Money>, Serializable {
      * @param cash
      *            wert
      * @param currency
-     *            währung
+     *            waehrung
      */
     public Money(String cash, String currency) {
         super();
@@ -91,7 +91,7 @@ public class Money implements Comparable<Money>, Serializable {
      * @param cash
      *            wert
      * @param currency
-     *            währung
+     *            waehrung
      */
     public Money(BigDecimal cash, String currency) {
         super();
@@ -127,7 +127,7 @@ public class Money implements Comparable<Money>, Serializable {
     }
 
     /**
-     * Währung.
+     * Waehrung.
      *
      * @param currency
      *            the currency to set
@@ -137,7 +137,7 @@ public class Money implements Comparable<Money>, Serializable {
     }
 
     /**
-     * Währung.
+     * Waehrung.
      *
      * @return the currency
      */
